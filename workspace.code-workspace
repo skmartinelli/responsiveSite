@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\..\\Downloads\\html5up-phantom"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "responsiveSite"
+	}
+}
