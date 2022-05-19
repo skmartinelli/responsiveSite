@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 body {
+	/* if you want to add a background it goes here */
 	line-height: 1;
 }
 
@@ -52,6 +53,7 @@ table {
 }
 
 body {
+	
 	-webkit-text-size-adjust: none;
 }
 
@@ -79,12 +81,14 @@ input, select, textarea {
 	}
 
 	body {
+		
 		-ms-overflow-style: scrollbar;
 	}
 
 	@media screen and (max-width: 480px) {
 
 		html, body {
+			
 			min-width: 320px;
 		}
 
@@ -116,6 +120,8 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
+
+		
 		color: #585858;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
@@ -2572,7 +2578,7 @@ input, select, textarea {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		postiion: relative;
+		position: relative;
 		margin: -2.5em 0 0 -2.5em;
 	}
 
