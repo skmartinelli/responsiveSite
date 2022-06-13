@@ -2627,6 +2627,9 @@ input, select, textarea {
 					opacity: 0.8;
 				}
 
+
+				/* * This is where the diagonal lines are when not hovering */
+				/*
 				.tiles article > .image:after {
 					pointer-events: none;
 					-moz-transition: opacity 0.5s ease;
@@ -2644,9 +2647,10 @@ input, select, textarea {
 					background-position: center;
 					background-repeat: no-repeat;
 					background-size: 100% 100%;
-					opacity: 0.25;
+					opacity: 0.0;
 					z-index: 2;
 				}
+				*/
 
 			.tiles article > a {
 				display: -moz-flex;
@@ -2747,6 +2751,7 @@ input, select, textarea {
 					opacity: 0.35;
 				}
 
+				/* * this is where the diagonal lines are when you hover */
 				body:not(.is-touch) .tiles article:hover > .image:after {
 					opacity: 0;
 				}
