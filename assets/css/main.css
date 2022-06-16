@@ -7,6 +7,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -101,6 +102,7 @@ input, select, textarea {
 	*, *:before, *:after {
 		box-sizing: inherit;
 	}
+
 
 	body {
 		background: #ffffff;
@@ -3338,3 +3340,8 @@ input, select, textarea {
 			}
 
 		}
+
+	.counter {
+		text-align: center;
+		font-family: “Comic Sans MS”, “Comic Sans”;
+	}
